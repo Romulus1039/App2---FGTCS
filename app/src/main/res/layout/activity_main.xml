@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="225dp"
+        android:layout_height="77dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundGravity="top|bottom|center"
+        android:minWidth="150"
+        android:minHeight="80"
+        android:text="LIMPAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_column="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="3"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="225dp"
+        android:layout_height="77dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundGravity="top|bottom|center"
+        android:minWidth="150"
+        android:minHeight="80"
+        android:text="CONTINUAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_column="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="3"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/fgts.txt"
+        android:layout_width="417dp"
+        android:layout_height="136dp"
+        android:background="#2196F3"
+        android:text="  CAIXA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="220dp"
+        android:layout_height="117dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_app2"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/cpf.txt"
+        android:layout_width="366dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:text="CPF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtCpf"
+        android:layout_width="397dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:hint="000.000.000-00"
+        android:textColor="#323030"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dataNascimento"
+        android:layout_width="397dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:hint="ex: 09/04/1990"
+        android:textColor="#323030"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/data de nasc.txt"
+        android:layout_width="347dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:text="Data de nascimento:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="345dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

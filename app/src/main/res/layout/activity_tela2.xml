@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela2">
+
+    <Button
+        android:id="@+id/ok.btn"
+        android:layout_width="166dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundGravity="top|bottom|center"
+        android:minWidth="150"
+        android:minHeight="80"
+        android:text="@android:string/ok"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_column="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="3"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <Button
+        android:id="@+id/voltar.btn"
+        android:layout_width="166dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:foregroundGravity="top|bottom|center"
+        android:minWidth="150"
+        android:minHeight="80"
+        android:text="VOLTAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_column="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_row="3" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="395dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:text="DATAS DE PAGAMENTOS:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="395dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:text="DATAS DE PAGAMENTOS:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="395dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:text="DATAS DE PAGAMENTOS:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="393dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:text="2ª parcela:"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="393dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:text="3ª parcela:"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <TextView
+        android:id="@+id/caixa.txt"
+        android:layout_width="417dp"
+        android:layout_height="136dp"
+        android:background="#2196F3"
+        android:text="  CAIXA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fgts.img"
+        android:layout_width="220dp"
+        android:layout_height="117dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_app2"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/1ª parcela.txt"
+        android:layout_width="393dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="16dp"
+        android:text="1ª parcela:"
+        android:textColor="#2167F3"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="277dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
